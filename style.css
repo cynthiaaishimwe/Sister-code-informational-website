@@ -1,0 +1,93 @@
+.header1 h2{
+    text-align: center;
+    font-size: 60px;
+  }
+  
+   .Vegetables2{
+     display: grid;
+     grid-template-columns: repeat(3,1fr); 
+  } 
+  
+  
+  .fruits-header h2{
+      text-align: center;
+    font-size: 60px;
+  }
+  .Fruits-colum2{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+  }
+  .Products{
+    font-size: 80px;
+    text-align: center;
+   margin-top: 20px;
+   color:  rgb(153, 153, 12);
+  }
+  .Fruits-colum2 img{
+    box-shadow: 5px 2px 5px 2px #000;
+    margin-left: 2%;
+    padding-top: 40px;
+    gap: 30px;
+    padding-top: 20%;
+  }
+  
+  .Fruits-colum1{
+    display: grid;
+     grid-template-columns: repeat(3,1fr); 
+  
+  }
+  .Fruits-colum1 img{
+    box-shadow: 5px 2px 5px 2px #000;
+    margin-left: 2%;
+    padding-top: 40px;
+    margin-bottom: 20%;
+    gap: 30%;
+    padding-top: 20%;
+  }
+  .fruit{
+    height: 300px;
+    width: 80%;
+    
+  }
+  
+  .Vegetables2 img{
+    box-shadow: 5px 2px 5px 2px #000;
+    margin-left: 2%;
+    padding-top: 40px;
+    margin-bottom: 20%;
+    padding-top: 20%;
+  }
+  
+  .veggie{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .veggie img{
+    box-shadow: 5px 2px 5px 2px #000;
+    margin-left: 2%;
+    padding-top: 40px;
+    margin-bottom: 20%;
+    gap: 30%;
+   padding-top: 20%;
+  }
+  .view-more{
+    margin-left: 80%;
+   
+  }
+  .view-more button{
+    padding: 5%;
+  padding-left: 15%;
+  font-size: 20px;
+  background-color: rgb(153, 153, 12);
+  }
+  .view-more2{
+    margin-left: 80%;
+  }
+  .view-more2 button{
+   padding: 5%; 
+  padding-left: 15%;
+  font-size: 20px;
+  background-color: rgb(153, 153, 12);
+  margin: 10%;
+  }
