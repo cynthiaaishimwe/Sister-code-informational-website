@@ -1,17 +1,24 @@
+
+/* OUR PRODUCT */
+
+
 .header1 h2{
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
   }
+  .header1 
   
    .Vegetables2{
      display: grid;
      grid-template-columns: repeat(3,1fr); 
   } 
+ 
   
   
   .fruits-header h2{
       text-align: center;
-    font-size: 60px;
+    font-size: 40px;
+
   }
   .Fruits-colum2{
    display: grid;
@@ -19,7 +26,7 @@
    
   }
   .Products{
-    font-size: 80px;
+    font-size: 40px;
     text-align: center;
    margin-top: 20px;
    color:  rgb(153, 153, 12);
@@ -38,7 +45,6 @@
   
   }
   .Fruits-colum1 img{
-    box-shadow: 5px 2px 5px 2px #000;
     margin-left: 2%;
     padding-top: 40px;
     margin-bottom: 20%;
@@ -46,13 +52,16 @@
     padding-top: 20%;
   }
   .fruit{
-    height: 300px;
+    height: 400px;
     width: 80%;
     
+    
+  }
+  .fruit{
+    border: 2px solid white;
   }
   
   .Vegetables2 img{
-    box-shadow: 5px 2px 5px 2px #000;
     margin-left: 2%;
     padding-top: 40px;
     margin-bottom: 20%;
@@ -64,7 +73,6 @@
     grid-template-columns: repeat(3,1fr);
   }
   .veggie img{
-    box-shadow: 5px 2px 5px 2px #000;
     margin-left: 2%;
     padding-top: 40px;
     margin-bottom: 20%;
@@ -87,7 +95,42 @@
   .view-more2 button{
    padding: 5%; 
   padding-left: 15%;
-  font-size: 20px;
   background-color: rgb(153, 153, 12);
   margin: 10%;
   }
+  .veggie p{
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  }
+  .Fruits-colum1 p{
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  body{
+    width: 90%;
+  }
+  
+  @media (max-width: 768px) {
+    .header1 {
+      display: none;
+    }
+    .veggie,
+    .Fruits1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .fruit {
+      width: 100%;
+      height: auto;
+    }
+    .fruit p {
+      text-align: center;
+    }
+  }
+
+  /* OUR PRODUCTS END */
+
+  
